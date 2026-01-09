@@ -1,5 +1,7 @@
 // ============================================================================
 // 01: Primitive Types in TypeScript
+// AI Disclaimer: Some portions of these examples and comments were generated
+// using AI tools, primarily via Copilot autocomplete.
 // ============================================================================
 
 // ----------------------------------------------------------------------------
@@ -78,7 +80,9 @@ console.log(multiLine);
 // ----------------------------------------------------------------------------
 // Sometimes a variable might not have a value yet, or we may want to represent
 // an optional value that may or may not be present. TypeScript uses 'undefined'
-// to represent this. You can use a union type with 'undefined' to allow this:
+// to represent this, which can be used in a "union type" via the | operator.
+// We'll cover union types in more detail later in the course, but for now, think
+// of the | like an "or" operation that can be used with types.
 
 // These variables may or may not have a number value:
 let val1: number | undefined;  // We don't have a val1 initially
