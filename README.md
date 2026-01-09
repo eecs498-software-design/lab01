@@ -12,6 +12,12 @@ Then, open the cloned repo in VS Code or another IDE.
 
 From a terminal, run `npm install`.
 
+IMPORTANT: Make sure to disable AI features for this lab, as Copilot will just try to fill out the exercises
+without giving you a chance to think through them yourself!
+
+Go to `File > Preferences > Settings` on Windows or `Code > Preferences > Settings` on macOS, then search
+for "Disable AI". Check the box.
+
 ## Exercises
 
 Closely read through each file in the `src/` folder in order.
