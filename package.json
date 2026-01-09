@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "tsx src/01_variables_and_types.ts > out/01_variables_and_types.txt && npm run diff",
-    "diff": "diff -r out solution"
+    "test": "npm run ex01 && npm run ex02 && npm run diff",
+    "ex01": "tsx src/01_variables_and_types.ts > out/01_variables_and_types.txt",
+    "ex02": "tsx src/02_functions.ts > out/02_functions.txt",
+    "diff": "diff -rs out solution"
   },
   "keywords": [],
   "author": "",
