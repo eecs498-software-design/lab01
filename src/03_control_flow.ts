@@ -139,7 +139,8 @@ console.log("Liftoff!");
 let even_number: number;
 do {
   // Generate a random number between 0 and 10 (not necessarily even)
-  even_number = Math.floor(Math.random() * 11);
+  // even_number = Math.floor(Math.random() * 11);
+  even_number = 4; // JK, don't actually generate random, since we need consistent output for the lab
   console.log(`Generated: ${even_number}`);
 } while ( even_number % 2 !== 0 ); // try again if not even
 
