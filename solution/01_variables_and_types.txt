@@ -1,0 +1,14 @@
+She said, 'Hello!'
+He replied, "Hi there!"
+Welcome, Jane Hopper!
+The sum of 5 and 10 is 15.
+This is line one.
+   This is line two and is indented.
+This is line three.
+Hello Jason! I heard you have a pet named Rock.
+You've had Rock for 5 years!
+Adding val1 + val2:
+15
+42
+now I'm a string
+true

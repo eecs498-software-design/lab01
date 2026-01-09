@@ -37,31 +37,39 @@ let lastName = "Hopper";
 // If you need to include quotes inside a string, use the other type of quote:
 let quote1 = "She said, 'Hello!'";
 let quote2 = 'He replied, "Hi there!"';
+console.log(quote1);
+console.log(quote2);
 
 // You can also define "template literals" using backticks (`).
 // This allows for string interpolation using ${...} syntax.
 let welcomeMessage = `Welcome, ${firstName} ${lastName}!`;
+console.log(welcomeMessage);
 
 // The ${...} syntax can include any expression:
 let aNum = 5;
 let bNum = 10;
 let sumMessage = `The sum of ${aNum} and ${bNum} is ${aNum + bNum}.`;
+console.log(sumMessage);
 
-// A string literal can span multiple lines when using backticks:
+// A string literal can span multiple lines when using backticks.
+// Note that the indentation and whitespace are also part of the string.
 let multiLine = `This is line one.
-This is line two.
+   This is line two and is indented.
 This is line three.`;
+console.log(multiLine);
 
 
 // EXERCISE:
 // Declare a variables for:
-//  - a person's name
-//  - their pet's name
-//  - how many years they've had the pet
+//  - a person's name (use the name Jason)
+//  - their pet's name (use the name Rock)
+//  - how many years they've had the pet (use the number 5)
 // Then create a greeting message using a template literal that says:
 //   Hello [person's name]! I heard you have a pet named [pet's name].
 //   You've had [pet's name] for [number of years] years!
 // Print the greeting message to the console using console.log().
+
+
 
 
 
@@ -89,6 +97,7 @@ val2 = undefined;
 // above that assign values to val1 and val2 to see the error go away.
 // In contrast to C++, issues like uninitialized variables or use of undefined values
 // (analogous to null pointers) can be caught at compile time!
+console.log("Adding val1 + val2:")
 console.log(val1 + val2);
 
 // Note: TypeScript also has 'null' which is similar to undefined. Sometimes the
