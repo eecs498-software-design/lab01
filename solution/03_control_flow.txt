@@ -18,12 +18,8 @@ Countdown:
 2
 1
 Liftoff!
-Generated: 7
-Generated: 5
-Generated: 5
-Generated: 7
-Generated: 2
-Final even number: 2
+Generated: 4
+Final even number: 4
 Printing numbers up through 7
 1
 2
