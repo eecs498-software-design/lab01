@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "npm run ex01 && npm run ex03 && npm run ex04 && npm run diff",
+    "test": "npm run ex01 && npm run ex02 && npm run ex03 && npm run ex04 && npm run diff",
     "ex01": "tsx src/01_variables_and_types.ts > out/01_variables_and_types.txt",
     "ex02": "tsx src/02_functions.ts > out/02_functions.txt",
     "ex03": "tsx src/03_control_flow.ts > out/03_control_flow.txt",
